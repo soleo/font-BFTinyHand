@@ -1,2 +1,28 @@
-# font-BFTinyHand
+# BF Tiny Hand
+
 The BF Tiny Hand Font, Designed by Mark Davis
+
+
+### Introduction
+
+This font is designed by Mark Davis. You could find more information from http://www.designermarkdavis.com/BF-Tiny-Hand
+
+You could download it from https://www.dropbox.com/s/irvgp4813izfbso/BFTinyHand-Regular.zip?dl=0 . The original zip file only included a .otf format font file which doesn't support well for all browsers. I used a script to generate ttf, svg, eot, woff and woff2 format to better support different browsers.
+ 
+### CSS @font-face template
+
+```css
+@font-face {
+  font-family: 'BFTinyHand';
+  src: url('BFTinyHand-Regular.eot'); /* IE9 Compat Modes */
+  src: url('BFTinyHand-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('BFTinyHand-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('BFTinyHand-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('BFTinyHand-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('BFTinyHand-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+```
+
+### Ref
+
+- https://css-tricks.com/snippets/css/using-font-face/
