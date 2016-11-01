@@ -5,6 +5,6 @@
 @font-face {
   font-family: 'BF Tiny Hand';
   src: url("../fonts/BFTinyHand-Regular.eot?v=1.0.0");
-  src: url("../fonts/BFTinyHand-Regular.eot?#iefix&v=1.0.0") format("embedded-opentype"), url("../fonts/BFTinyHand-Regular.woff2?v=1.0.0") format("woff2"), url("../fonts/BFTinyHand-Regular.woff?v=1.0.0") format("woff"), url("../fonts/BFTinyHand-Regular.ttf?v=1.0.0") format("truetype"), url("../fonts/BFTinyHand-Regular.svg?v=1.0.0#fontawesomeregular") format("svg");
+  src: url("../fonts/BFTinyHand-Regular.eot?#iefix&v=1.0.0") format("embedded-opentype"), url("../fonts/BFTinyHand-Regular.woff2?v=1.0.0") format("woff2"), url("../fonts/BFTinyHand-Regular.woff?v=1.0.0") format("woff"), url("../fonts/BFTinyHand-Regular.ttf?v=1.0.0") format("truetype"), url("../fonts/BFTinyHand-Regular.svg?v=1.0.0#bftinyhandregular") format("svg");
   font-weight: normal;
   font-style: normal; }
