@@ -1,7 +1,7 @@
 {
   "name": "font-bftinyhand",
   "description": "The Donald Trump font for the web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "style": "css/font-bftinyhand.css",
   "keywords": [
     "font",
@@ -14,7 +14,7 @@
   },
   "author": "Mark Davis (http://twitter.com/markfonts)",
   "repository": {
-    "url": "git+https://github.com/soleo/font-BFTinyHand.git",
+    "url": "https://github.com/soleo/font-BFTinyHand.git",
     "type": "git"
   },
   "contributors": [
