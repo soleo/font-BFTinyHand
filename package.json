@@ -25,7 +25,11 @@
   "engines": {
     "node": ">=0.10.3"
   },
-  "main": "index.js",
+  "files": [
+    "css/*.css",
+    "scss/*.scss",
+    "fonts/*"
+  ],
   "directories": {
     "doc": "docs"
   },
