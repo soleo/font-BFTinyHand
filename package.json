@@ -1,0 +1,41 @@
+{
+  "name": "font-bftinyhand",
+  "description": "The Donald Trump font for the web",
+  "version": "1.0.0",
+  "style": "css/font-bftinyhand.css",
+  "keywords": [
+    "font",
+    "tinyhand",
+    "bftinyhand"
+  ],
+  "homepage": "https://github.com/soleo/font-BFTinyHand",
+  "bugs": {
+    "url": "https://github.com/soleo/font-BFTinyHand/issues"
+  },
+  "author": "Mark Davis (http://twitter.com/markfonts)",
+  "repository": {
+    "url": "git+https://github.com/soleo/font-BFTinyHand.git",
+    "type": "git"
+  },
+  "contributors": [
+    "Xinjiang Shao (http://twitter.com/soleoshao)"
+  ],
+  "license": "OFL-1.1",
+  "dependencies": {},
+  "engines": {
+    "node": ">=0.10.3"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/font-bftinyhand.scss  css/font-bftinyhand.css",
+    "watch-css": "nodemon -e scss -x \"yarn run build-css\""
+  },
+  "devDependencies": {
+    "node-sass": "^3.10.1",
+    "nodemon": "^1.11.0"
+  }
+}
