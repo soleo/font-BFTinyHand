@@ -13,7 +13,7 @@ $tinyhand-version:          "1.0.0" !default;
     url('#{$tinyhand-font-path}/BFTinyHand-Regular.woff2?v=#{$tinyhand-version}') format('woff2'),
     url('#{$tinyhand-font-path}/BFTinyHand-Regular.woff?v=#{$tinyhand-version}') format('woff'),
     url('#{$tinyhand-font-path}/BFTinyHand-Regular.ttf?v=#{$tinyhand-version}') format('truetype'),
-    url('#{$tinyhand-font-path}/BFTinyHand-Regular.svg?v=#{$tinyhand-version}#fontawesomeregular') format('svg');
+    url('#{$tinyhand-font-path}/BFTinyHand-Regular.svg?v=#{$tinyhand-version}#bftinyhandregular') format('svg');
 //  src: url('#{$tinyhand-font-path}/BFTinyHand-Regular.otf') format('opentype'); // used when developing fonts
   font-weight: normal;
   font-style: normal;
