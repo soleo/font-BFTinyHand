@@ -2,3 +2,4 @@
 .sass-cache
 node_modules
 *.log
+!docs/node_modules
