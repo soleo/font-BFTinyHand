@@ -36,7 +36,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/font-bftinyhand.scss  css/font-bftinyhand.css",
-    "watch-css": "nodemon -e scss -x \"yarn run build-css\""
+    "watch-css": "nodemon -e scss -x \"yarn run build-css\"",
+    "make-docs": "rm -rf docs/fonts docs/css && cp -r fonts docs/fonts && cp -r css docs/css"
   },
   "devDependencies": {
     "node-sass": "^3.10.1",

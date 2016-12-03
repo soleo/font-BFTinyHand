@@ -18,7 +18,7 @@ $ yarn add font-bftinyhand
 
 ### Demo
 
-[Demo Link](http://xinjiangshao.com/font-BFTinyHand/)
+[Demo Link](https://soleo.github.io/font-BFTinyHand/)
 
 ### Development
 
