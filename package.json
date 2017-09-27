@@ -40,7 +40,7 @@
     "make-docs": "rm -rf docs/fonts docs/css && cp -r fonts docs/fonts && cp -r css docs/css"
   },
   "devDependencies": {
-    "node-sass": "^3.10.1",
+    "node-sass": "^4.5.3",
     "nodemon": "^1.11.0"
   }
 }
