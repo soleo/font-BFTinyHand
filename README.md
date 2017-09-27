@@ -1,6 +1,8 @@
 ![](tinyhand.png?raw=true)
 # BF Tiny Hand
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/soleo/font-BFTinyHand.svg)](https://greenkeeper.io/)
+
 The BF Tiny Hand Font, Designed by Mark Davis
 
 
