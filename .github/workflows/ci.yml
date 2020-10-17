@@ -26,7 +26,7 @@ jobs:
         git config --global user.email "${{ github.actor }}@noreply.github.com"
         git config --global user.name "${{ github.actor }}"
         echo "${{ steps.bump_version.outputs.tag }}"
-    - run: npm install
+    - run: npm install && npm build-css
     # Publish to npm
     - run: npm version "${{ steps.bump_version.outputs.tag }}" && npm publish --access public
       env:
