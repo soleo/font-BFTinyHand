@@ -1,12 +1,13 @@
 {
-  "name": "font-bftinyhand",
+  "name": "@soleo/font-bftinyhand",
   "description": "The Donald Trump font for the web",
   "version": "1.0.2",
   "style": "css/font-bftinyhand.css",
   "keywords": [
     "font",
     "tinyhand",
-    "bftinyhand"
+    "bftinyhand",
+    "css"
   ],
   "homepage": "https://github.com/soleo/font-BFTinyHand",
   "bugs": {
@@ -40,7 +41,7 @@
     "make-docs": "rm -rf docs/fonts docs/css && cp -r fonts docs/fonts && cp -r css docs/css"
   },
   "devDependencies": {
-    "node-sass": "^3.10.1",
-    "nodemon": "^1.11.0"
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.5"
   }
 }
