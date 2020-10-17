@@ -40,8 +40,8 @@ jobs:
         scope: '@soleo'
     # Publish to GitHub Packages
     - run: |
-        npm login --registry=https://npm.pkg.github.com --scope=@soleo
         echo registry=https://npm.pkg.github.com/soleo >> .npmrc
+        echo //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN} >> .npmrc
         npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
