@@ -39,6 +39,9 @@ jobs:
         # Defaults to the user or organization that owns the workflow file
         scope: '@soleo'
     # Publish to GitHub Packages
-    - run: echo registry=https://npm.pkg.github.com/soleo >> .npmrc && npm publish
+    - run: |
+        npm login --registry=https://npm.pkg.github.com --scope=@soleo
+        echo registry=https://npm.pkg.github.com/soleo >> .npmrc
+        npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
