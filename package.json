@@ -1,7 +1,7 @@
 {
   "name": "@soleo/font-bftinyhand",
   "description": "The Donald Trump font for the web",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "style": "css/font-bftinyhand.css",
   "keywords": [
     "font",
